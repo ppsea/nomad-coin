@@ -1,0 +1,15 @@
+{
+  "name": "nomad-coin",
+  "version": "1.0.0",
+  "description": "nomad coin",
+  "main": "index.js",
+  "author": "henry",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  }
+}
